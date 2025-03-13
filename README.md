@@ -24,3 +24,14 @@ The model achieves **96% accuracy** with an **F1-score of 0.84**.
 - Correlation analysis between features ✅
 
 # Feature Importance
+![Output](https://github.com/user-attachments/assets/6757c94c-696e-4cc1-aaee-ce91cc553a79)
+
+# Model Training and Evaluation 
+- Model Used: **Random Forest Classifier**
+- Accuracy: **96%**
+- Precision: **89%**
+- Recall: **80%**
+- F1-Score: **84%**
+
+
+
