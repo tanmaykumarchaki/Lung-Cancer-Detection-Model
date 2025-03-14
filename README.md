@@ -1,6 +1,8 @@
 # Lung-Cancer-Detection-Model
 
 ## Overview
+The Lung Cancer Detection Model uses a Random Forest Classifier, a machine learning algorithm that creates multiple decision trees to make predictions. Each tree in the forest looks at the patient's health data—such as symptoms like coughing, wheezing, yellow fingers, and chronic diseases—and classifies the risk of lung cancer. The model combines the results from all trees to make a final prediction. The Random Forest is particularly effective because it handles both the complexity of the data and potential overfitting, providing reliable predictions. The model’s performance is evaluated using metrics like accuracy, precision, recall, and the ROC curve, ensuring its ability to distinguish between cancerous and non-cancerous cases.
+
 This project uses a **Random Forest Classifier** to predict lung cancer based on patient data.  
 The model achieves **96% accuracy** with an **F1-score of 0.84**.  
 
