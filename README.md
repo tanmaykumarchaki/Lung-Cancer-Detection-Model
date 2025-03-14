@@ -18,7 +18,7 @@ The model achieves **96% accuracy** with an **F1-score of 0.84**.
   
 ## Dataset
 - The dataset is sourced from [Kaggle]. It contains patient details and lung cancer labels.
-- It includes features like `chest pain `, `smoking history`, `cough`, etc.
+- It includes features like `chest pain `, `yellow fingers`, `cough`, etc.
 
 ## Dataset Description
 The dataset consists of various health indicators and the target variable represents whether or not a person has lung cancer. The target variable is binary, with the following encoding:
