@@ -147,7 +147,7 @@ The steeper the curve towards the top-left, the better the model performs.
 If the curve is too close to the diagonal, the model is performing poorly.
 
 ### Model's ROC Curve
-![download (1)](https://github.com/user-attachments/assets/14030568-64a9-4594-b505-bff8037bb6ba)
+![ROC CURVE](https://github.com/user-attachments/assets/3e7e1576-692d-4e73-a323-1f043ff47e50)
 
 
 ## Results & Insights
