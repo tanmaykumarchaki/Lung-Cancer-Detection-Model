@@ -20,6 +20,12 @@ The model achieves **96% accuracy** with an **F1-score of 0.84**.
 - The dataset is sourced from [Kaggle]. It contains patient details and lung cancer labels.
 - It includes features like `chest pain `, `smoking history`, `cough`, etc.
 
+## Dataset Description
+The dataset consists of various health indicators and the target variable represents whether or not a person has lung cancer. The target variable is binary, with the following encoding:
+
+1 represents "No" (indicating the absence of lung cancer).
+2 represents "Yes" (indicating the presence of lung cancer).
+
 ## Predictive Variables in This Project
 ### YELLOW_FINGERS
 Description: This variable indicates whether a person has yellow fingers, which may be a sign of smoking or other health conditions.
@@ -55,9 +61,9 @@ Relevance: Persistent coughing is often linked to respiratory conditions, such a
 
 ## Exploratory Data Analysis
 
-- Checked for missing values ✅
-- Visualized feature distributions ✅
-- Correlation analysis between features ✅
+- Checked for missing values ✅ ( using `isnull` function )
+- Visualized feature distributions ✅ ( using `matplotlib.pyplot` and `seaborn` )
+- Correlation analysis between features ✅ ( using `df.corr()` )
 
 
 ## Feature Importance
